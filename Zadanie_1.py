@@ -26,4 +26,5 @@ print("Lista zakupów")
 print("")
 
 for sklep, produkty in lista_zakupów.items():  
-    print(f"Idę do {sklep}, kupuję tu następujące rzeczy: {produkty}") # metoda title zmienia pierwsza literę na duza
+    produkty_duza_litera = [produkt.title() for produkt in produkty]  # Tworzenie listy z produktami z wielkimi literami
+    print(f"Idę do {sklep.title()}, kupuję tu następujące rzeczy: {produkty_duza_litera}") # metoda title zmienia pierwsza literę na duza
