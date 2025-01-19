@@ -24,3 +24,6 @@ lista_zakupów = {
 x = 0
 print("Lista zakupów")
 print("")
+
+for sklep, produkty in lista_zakupów.items():  
+    print(f"Idę do {sklep}, kupuję tu następujące rzeczy: {produkty}") # metoda title zmienia pierwsza literę na duza
