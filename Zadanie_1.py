@@ -20,3 +20,7 @@ lista_zakupów = {
     "piekarnia" : ["chleb", "pączek", "bułki"],
     "warzywniak" : ["marchew", "seler", "rukola"]
 }
+
+x = 0
+print("Lista zakupów")
+print("")
