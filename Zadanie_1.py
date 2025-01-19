@@ -28,3 +28,7 @@ print("")
 for sklep, produkty in lista_zakupów.items():  
     produkty_duza_litera = [produkt.title() for produkt in produkty]  # Tworzenie listy z produktami z wielkimi literami
     print(f"Idę do {sklep.title()}, kupuję tu następujące rzeczy: {produkty_duza_litera}") # metoda title zmienia pierwsza literę na duza
+    x = x + len(lista_zakupów.get(sklep))
+
+
+print(f"W sumie kupuję {x} produktów")
