@@ -33,4 +33,4 @@ for sklep, produkty in lista_zakupów.items():
 
 print(f"W sumie kupuję {x} produktów")
 
-print("Lista zakupów dla restauracji hiszpańskiej"
+print("Lista zakupów dla restauracji hiszpańskiej")
